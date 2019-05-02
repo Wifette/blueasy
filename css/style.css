@@ -1,0 +1,85 @@
+/*Couleur de background de la page pour foncer les photos et les blocks gris*/
+body{
+   background-color:  #515f67;
+}
+/*Photo du header*/    
+header{ 
+    min-height:100vh;
+}
+header a{
+    color:#fff !important;
+}
+header,nav {
+    opacity:0.9;
+}
+.sizerow{
+    height:100vh;
+}  
+section, footer{
+    padding:40px 0px 40px 0px;
+}
+/*Soulignement des titres*/
+.border-bottom{    
+    width:8% !important;
+}
+.btn-contact{
+    background-color:#4bcaff !important;
+    border:0px !important;
+}
+.navbar-default{
+    background-color: #fff !important;
+    color:#515f67;
+}
+.bg-bleu{
+    background-color:#4bcaff;
+    color:#fff;
+}
+.text-bleu{
+    color:#4bcaff;   
+}
+header span{
+    background-color: #4a555d;opacity:0.8;    
+}
+#folio img{
+    width:90%;
+    height:90%;
+}
+form input, textarea{
+    background-color:transparent !important;
+    border-radius:0 !important;
+}
+/*Nav haut et portfolio*/
+.lien{
+    padding:2px;
+    margin: 0px 15px;
+    font-weight: bold; 
+    color:#fff;
+    border:1px solid transparent; 
+}
+.lien2{
+    padding:2px;
+    margin: 0px 15px;
+    font-weight: bold; 
+    color:#69747b;
+    border:1px solid transparent; 
+}
+.lien:hover,.lien2:hover{
+    border:1px solid #4bcaff; 
+    color:#4bcaff !important;
+    font-weight:bold; 
+}
+/*Liens du footer*/    
+footer a:hover{
+    border:none;
+    color:#000;
+    text-decoration:none;
+}
+h1{
+    font-size:5vmin;
+}
+h2{
+    font-size:4vmin;
+}
+p, #contactform label, #contactform adress{
+    font-size:2vmin;
+}
